@@ -1,0 +1,48 @@
+@import "C:/Users/ncms0/Desktop/따라하기/css/reset.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/status-bar.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/header.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/nav-bar.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/friend.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/friends.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/find.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/more.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/settings.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/chat.css";
+@import "C:/Users/ncms0/Desktop/따라하기/css/mobile.css";
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,600&display=swap&subset=korean");
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  color: #202020;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.5;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadein 0.5s ease-in-out;
+}
+
+.header h1 {
+  color: black;
+}
